@@ -8,7 +8,7 @@
         Title="Kurzy" Height="800" Width="500" Background="AliceBlue" ResizeMode="NoResize" WindowStyle="ToolWindow" WindowStartupLocation="CenterScreen">
     <Window.Resources>
         <Style TargetType="DataGridCell">
-            <Style.Triggers>
+            <Style.Triggers> 
                 <Trigger Property="IsMouseOver" Value="True">
                     <Setter Property="IsEditing" Value="True" />
                 </Trigger>
